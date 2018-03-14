@@ -21,6 +21,7 @@ Create the project
         	- main
             - scala (All of your scala code goes here)
                 -Main.scala (Entry point of program) <-- this is all we need for now
+                
         -build.sbt (sbt's build definition file)
 
 After you build your project, sbt will create more target directories for generated files. You can ignore these.
