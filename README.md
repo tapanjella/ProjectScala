@@ -7,7 +7,9 @@ HOW TO CREATE A SCALA PROJECT
 Run javac -version in the command line and make sure you see javac 1.8.___
 If you don’t have version 1.8 or higher, install the JDK
 2.	Install sbt
+
 Create the project
+
 1.	cd to an empty folder.
 2.	Run the following command sbt new scala/hello-world.g8. This pulls the ‘hello-world’ template from GitHub. It will also create a target folder, which you can ignore.
 3.	When prompted, name the application hello-world. This will create a project called “hello-world”.
