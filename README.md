@@ -38,5 +38,7 @@ You can find more published libraries on Scaladex, the Scala library index, wher
 
 Using links:
 https://docs.scala-lang.org/getting-started.html
+
 https://docs.scala-lang.org/getting-started-sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html
+
 https://docs.scala-lang.org/getting-started-sbt-track/testing-scala-with-sbt-on-the-command-line.html
