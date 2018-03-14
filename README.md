@@ -1,4 +1,5 @@
 # ProjectScala
+HOW TO CREATE A SCALA PROJECT
 1.	Make sure you have the Java 8 JDK (also known as 1.8)
 Run javac -version in the command line and make sure you see javac 1.8.___
 If you don’t have version 1.8 or higher, install the JDK
