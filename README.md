@@ -1,6 +1,8 @@
 # ProjectScala
 HOW TO CREATE A SCALA PROJECT
+
 #Installations
+
 1.	Make sure you have the Java 8 JDK (also known as 1.8)
 Run javac -version in the command line and make sure you see javac 1.8.___
 If you don’t have version 1.8 or higher, install the JDK
@@ -20,16 +22,22 @@ Create the project
         -build.sbt (sbt's build definition file)
 
 After you build your project, sbt will create more target directories for generated files. You can ignore these.
+
 #Running the project
+
 1.	cd into hello-world.
 2.	Run sbt. This will open up the sbt console.
 3.	Type ~run. The ~ is optional and causes sbt to re-run on every file save, allowing for a fast edit/run/debug cycle. sbt will also generate a targetdirectory which you can ignore.
+
 #Modifying the code
+
 1.	Open the file src/main/scala/Main.scala in your favorite text editor.
 2.	Change “Hello, World!” to “Hello, New York!”
 3.	If you haven’t stopped the sbt command, you should see “Hello, New York!” printed to the console.
 4.	You can continue to make changes and see the results in the console.
+
 #Adding a dependency
+
 Changing gears a bit, let’s look at how to use published libraries to add extra functionality to our apps.
 1.	Open up build.sbt and add the following line:
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.0"
